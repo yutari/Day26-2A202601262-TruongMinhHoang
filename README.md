@@ -1,5 +1,8 @@
 # Phân biệt MCP và Function Calling
 
+**Sinh viên:** Trương Minh Hoàng  
+**MSSV:** 2A202601262
+
 Đây là hai khái niệm hay bị nhầm lẫn nhưng thực ra ở **hai tầng khác nhau**, và **bổ sung cho nhau** chứ không thay thế.
 
 ## Cấu trúc repo
@@ -18,13 +21,26 @@ day26-mcp/
 │   ├── weather_server.py
 │   └── weather_client.py
 │
-└── 03-production/           ← Bước 3: Auth, Tool Registry, Versioning
+├── 03-production/           ← Bước 3: Auth, Tool Registry, Versioning
+│   ├── README.md
+│   ├── auth_server.py
+│   ├── auth_client.py
+│   ├── registry.json
+│   ├── registry_client.py
+│   └── versioned_server.py
+│
+├── 04-lab/                  ← Bước 4: Weather Agent với Google ADK & MCP Server
+│   ├── README.md
+│   ├── mcp-server/
+│   └── mcp-client/
+│
+└── my-mcp-server/           ← BÀI TẬP VỀ NHÀ: SQLite Order & Inventory Manager (Auth + Versioning)
     ├── README.md
-    ├── auth_server.py
-    ├── auth_client.py
-    ├── registry.json
-    ├── registry_client.py
-    └── versioned_server.py
+    ├── requirements.txt
+    ├── server.py
+    ├── client.py
+    ├── setup_db.py
+    └── use_case.txt
 ```
 
 ## Quick start
